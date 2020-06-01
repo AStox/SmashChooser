@@ -28,8 +28,8 @@ const MatchupDisplay = ({ roster1, roster2 }: { roster1: string[]; roster2: stri
     });
     setTimeout(() => {
       setRightCSS({
-        transition: "right 0.5s cubic-bezier(.2,1.27,.68,.96)",
-        right: "0px"
+        transition: "right 0.5s cubic-bezier(.04,1.15,.67,1.15)",
+        left: "0px"
       });
     }, 100);
     setLeftCSS({
@@ -38,7 +38,7 @@ const MatchupDisplay = ({ roster1, roster2 }: { roster1: string[]; roster2: stri
     });
     setTimeout(() => {
       setLeftCSS({
-        transition: "left 0.5s cubic-bezier(.2,1.27,.68,.96)",
+        transition: "left 0.5s cubic-bezier(.04,1.15,.67,1.15)",
         left: "0px"
       });
     }, 100);
